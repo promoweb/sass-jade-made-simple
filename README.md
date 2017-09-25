@@ -14,6 +14,8 @@ $ npm install gulp gulp-sass gulp-uglify gulp-jade browser-sync
 
 $ gulp
 
+[Example on Linux Ubuntu 16.04.2 LTS](https://i.imgur.com/ptfWwjJ.jpg) 
+
 ### It uses Simple Grid | Lightweight CSS grid for web development
 
 [Simple Grid](http://simplegrid.io/) | Lightweight CSS grid for web development.
