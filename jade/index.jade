@@ -1,0 +1,186 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    // Social share meta tags
+    meta(property='og:title', content='Simple Grid')
+    meta(property='og:description', content='A responsive, lightweight, simple CSS grid.')
+    meta(property='og:type', content='website')
+    meta(property='og:site_name', content='Simple Grid')
+    meta(name='twitter:card', content='summary_large_image')
+    meta(name='twitter:title', content='Simple Grid')
+    meta(name='twitter:description', content='A responsive, lightweight, simple CSS grid.')
+    // End social share meta tags
+    link(rel='stylesheet', href='css/reset.css')
+    link(rel='stylesheet', href='css/simple-grid.css')
+    link(rel='stylesheet', href='css/zc-grid.css')
+    title Simple Grid | Lightweight CSS grid for web development
+    meta(name='description', content='A simple, lightweight grid and container system for your website.')
+  body
+    .jumbotron
+      .container
+        .row
+          .col-12.center
+            .img.img-logo.center
+            h1 Simple Grid is a CSS grid for your website.
+            h2.font-light Responsive, light, simple.
+            a(href='simple-grid.zip', download='')
+              button Download
+        .row
+          .col-2.hidden-sm
+          .col-8
+            .img.img-website-mock
+          .col-2.hidden-sm
+    .body-content
+      .container
+        .row
+          .col-4.center
+            .img.img-responsive.center
+            h3 Responsive
+            p
+              | Your website will display beautifully, no matter the device or screen type.
+          .col-4.center
+            .img.img-lightweight.center
+            h3 Lightweight
+            p
+              | The CSS is super light, so you won’t have to worry about adding to page load times.
+          .col-4.center
+            .img.img-simple.center
+            h3 Simple
+            p
+              | Simple Grid is made for all skill levels, so you can jump right into your project.
+        .row
+          .col-4.hidden-sm
+          .col-4
+            .line
+          .col-4.hidden-sm
+        .row
+          .col-2.hidden-sm
+          .col-8
+            h3.center.m-bottom Simple Grid
+            p
+              | Simple Grid is a 12-column, lightweight CSS grid to help you quickly build responsive websites. Download the CSS stylesheet, add the appropriate classes to your markup, and you're off to the races. It’s that simple.
+            p
+              | Each column is contained within rows, which are contained within a container. The container is set to a maximum width of 960px, but you can edit without having to break anything.
+          .col-2.hidden-sm
+        .grid-display
+          .row
+            .col-1
+              p
+                | one
+            .col-11
+              p
+                | eleven
+          .row
+            .col-2
+              p
+                | two
+            .col-10
+              p
+                | ten
+          .row
+            .col-3
+              p
+                | three
+            .col-9
+              p
+                | nine
+          .row
+            .col-4
+              p
+                | four
+            .col-8
+              p
+                | eight
+          .row
+            .col-5
+              p
+                | five
+            .col-7
+              p
+                | seven
+          .row
+            .col-6
+              p
+                | six
+            .col-6
+              p
+                | six
+          .row
+            .col-12
+              p
+                | twelve
+        .row
+          .col-4.hidden-sm
+          .col-4
+            .line
+          .col-4.hidden-sm
+        .row
+          .col-2.hidden-sm
+          .col-8
+            h3.center.m-bottom Simple Code
+            p
+              | All the code you need is simple and familiar. Simply state the number of columns you want your content to occupy in the .col class. For example, if you want your content to take up 8 columns (out of 12), simply give your content the class .col-8.
+            p
+              | Simple grid is built mobile-first, so all columns will expand to the full container width on smaller screens. If you don’t want columns to expand on mobile devices and small screens, simply add -sm to the end of your column class name. For example, if you want to have two blocks of content floating side-by-side on small screens, each would be given the class name .col-6-sm.
+            p
+              | Be sure to nest columns within a .row class. You may also choose to nest rows within a .container class.
+            p
+              | The download package now contains an SCSS file for those who prefer SASS as well.
+          .col-2.hidden-sm
+        .row
+          .col-4.hidden-sm
+          .col-4
+            .line
+          .col-4.hidden-sm
+        .row
+          .col-2.hidden-sm
+          .col-8
+            h3.center.m-bottom Simple Typography
+            p
+              | Simple Grid uses Lato from Google Fonts as a base font-family. Font-size is based on root rem units.
+            h1 Header 1
+            h2 Header 2
+            h3 Header 3
+            h4 Header 4
+            h5 Header 5
+            h6 Header 6
+            p
+              | Additionally, should you choose to style any of the headers or paragraph font-weights, simply add the class .font-light,
+              span.font-regular .font-regular
+              | , or
+              span.font-heavy .font-heavy
+              |  to your markup. Paragraph text is set by default to a font-weight of 200. Note: the .font-heavy class should not be used as a replacement for semantic bold body copy.
+          .col-2.hidden-sm
+        .row
+          .col-4.hidden-sm
+          .col-4
+            .line
+          .col-4.hidden-sm
+        .row
+          .col-12.center
+            h2.red Start Building
+            a(href='simple-grid.zip', download='')
+              button.btn-secondary Download
+    footer
+      .container
+        .row
+          .col-12.center
+            .img.img-logo.center
+        .row
+          .col-12.center
+            p
+              | Simple Grid
+              br
+              |           Made by
+              a(href='http://zcole.me', target='_blank') Zach Cole
+              br
+              |           Contribute on
+              a(href='https://github.com/zachacole/Simple-Grid', target='_blank') Github
+              br
+              |           Share on
+              a(href='https://twitter.com/intent/tweet?text=Simple%20Grid%3A%20A%20css%20grid%20for%20your%20website%3A%20http%3A%2F%2Fsimplegrid.io%2F%20by%20%40zachacole&source=webclient', target='_blank') Twitter
+            p
+              | Open source under the
+              a(href='https://opensource.org/licenses/MIT', target='_blank') MIT License
