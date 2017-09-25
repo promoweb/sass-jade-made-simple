@@ -1,4 +1,4 @@
-# Sass and Jade Made Simple
+# Sass & Jade Made Simple
 
 Example code for using Gulp, Sass and Jade in web development.
 
