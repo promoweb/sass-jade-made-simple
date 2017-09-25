@@ -1,0 +1,197 @@
+/**
+*** ZACH COLE
+*** (C) 2016
+**/
+/* SIMPLE GRID LANDING PAGE CUSTOM STYLES */
+/* line 8, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+* {
+  color: #636366; }
+
+/* line 12, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+body {
+  background: #F38BD3; }
+
+/* line 16, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease; }
+  /* line 20, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+  a:hover {
+    text-decoration: line-through; }
+
+/* line 25, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.m-bottom {
+  margin-bottom: 48px; }
+
+/* line 29, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.container {
+  padding-top: 100px; }
+
+/* line 33, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.body-content {
+  background: #fff;
+  padding: 100px 0 120px 0;
+  position: relative;
+  z-index: 0 !important; }
+  /* line 38, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+  .body-content > .container {
+    position: relative;
+    top: 100px;
+    padding-bottom: 100px; }
+
+/* line 45, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.jumbotron {
+  background: #FE7880;
+  background-image: linear-gradient(#F38BD3, #FE7880);
+  height: 760px;
+  width: 100%;
+  z-index: 100 !important; }
+  /* line 51, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+  .jumbotron h1, .jumbotron h2 {
+    color: #fff; }
+
+/* line 56, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+button {
+  height: 48px;
+  width: 180px;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 200;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none; }
+  /* line 70, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+  button:hover {
+    background: #fff;
+    color: #FE7880; }
+  /* line 74, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+  button:active {
+    outline: none; }
+
+/* line 79, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.btn-secondary {
+  border: 1px solid #FE7880;
+  color: #FE7880; }
+  /* line 82, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+  .btn-secondary:hover {
+    background: #FE7880;
+    color: #fff; }
+
+/* line 88, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.line {
+  height: 1px;
+  width: 100%;
+  background: #D6D6D8;
+  margin: 80px 0; }
+
+/* line 95, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.grid-display {
+  margin: 20px 0; }
+  /* line 97, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+  .grid-display [class^="col"] {
+    background: #FBCED1;
+    border: 1px solid #FE7880;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center; }
+    /* line 103, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+    .grid-display [class^="col"] p {
+      color: #FE7880;
+      font-size: 0.8rem; }
+
+/* line 110, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+pre {
+  margin-top: 30px;
+  overflow: auto;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #D8DCE6;
+  padding: 24px 0; }
+
+/* line 119, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+code, .tag, .el, .name, .content, .comment {
+  font-family: monospace;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  color: #636366; }
+
+/* line 126, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.el {
+  color: #FE7880; }
+
+/* line 130, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.name {
+  color: #F9B42D; }
+
+/* line 134, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.content {
+  color: #75C050; }
+
+/* line 138, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.comment {
+  color: #B6CAD2; }
+
+/* line 142, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+footer {
+  background: #FE7880;
+  background: #F38BD3;
+  background-image: linear-gradient(#FE7880, #F38BD3);
+  padding-bottom: 80px; }
+  /* line 147, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+  footer p {
+    color: #fff; }
+
+/* IMAGES */
+/* line 154, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.img {
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+/* line 159, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.img-logo {
+  background-image: url("img/logo-white.svg");
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  padding-bottom: 8px; }
+
+/* line 167, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.img-website-mock {
+  position: relative;
+  background-image: url("img/web-mock.png");
+  height: 0;
+  padding-top: 71.8%;
+  margin-top: 80px;
+  z-index: 200 !important; }
+
+/* line 176, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.img-responsive {
+  background-image: url("img/responsive.png");
+  height: 96px;
+  width: 144px; }
+
+/* line 182, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.img-lightweight {
+  background-image: url("img/light.png");
+  height: 96px;
+  width: 96px; }
+
+/* line 188, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+.img-simple {
+  background-image: url("img/simple.png");
+  height: 96px;
+  width: 132px; }
+
+/* === MEDIA QUERIES === */
+@media only screen and (min-width: 720px) {
+  /* line 197, /home/emilio/Scrivania/portfolio-with-css-grid-master/sass-jade-made-simple/scss/zc-grid.scss */
+  .jumbotron {
+    height: 600px; } }
+
+/*# sourceMappingURL=zc-grid.css.map */
