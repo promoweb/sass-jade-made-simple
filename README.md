@@ -3,7 +3,7 @@ Sass & Jade Made Simple v1.0
 
 ![Project Preview](preview.jpg)
 
-Example code for using Gulp, Sass and Jade in web development.
+An example of how to use Gulp, Sass and Jade in web development.
 
 # Installation
 
